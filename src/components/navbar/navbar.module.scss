@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  margin: 1em auto;
+
+
+  button {
+    border: none;
+    text-decoration: none;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #FFB703;
+
+
+  }
+  button:focus {
+    outline: none;
+    outline-offset: -4px;
+  }
+
+  button:hover {
+    transform: scale(1.15);
+    color: #FB8500;
+  }
+ .navlinks {
+   margin: auto;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+ }
+}
+
